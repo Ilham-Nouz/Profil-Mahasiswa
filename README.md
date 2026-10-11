@@ -1,17 +1,25 @@
-# profil_mahasiswa
+# Profil Mahasiswa
 
-A new Flutter project.
+Praktikum Pemrograman Mobile (ST407), Pertemuan 2: Widget Dasar & Layout.
+Aplikasi Flutter sederhana yang menampilkan halaman profil mahasiswa.
 
-## Getting Started
+## Fitur
+- Halaman profil (foto, nama, NIM, program studi, email, lokasi)
+- Tombol media sosial dengan SnackBar
+- Halaman "Tentang Aplikasi" (Stack)
+- Struktur modular: `screens/` dan `widgets/`
 
-This project is a starting point for a Flutter application.
+## Menjalankan
+```bash
+flutter run
+```
 
-A few resources to get you started if this is your first Flutter project:
+## Struktur
+lib/
+├── main.dart
+├── screens/ # profile_screen, about_screen
+└── widgets/ # profile_photo, profile_header, profile_info, info_row,
+# social_media_row, action_buttons
 
-- [Learn Flutter](https://docs.flutter.dev/get-started/learn-flutter)
-- [Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Flutter learning resources](https://docs.flutter.dev/reference/learning-resources)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+## Pembuat
+[Ilham Aditya Pratama] - [25.11.6407]
